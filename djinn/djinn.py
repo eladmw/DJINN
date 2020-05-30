@@ -22,7 +22,7 @@ try: import cPickle
 except: import _pickle as cPickle
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.preprocessing import MinMaxScaler
-from djinn_fns import tree_to_nn_weights, tf_dropout_regression, \
+from djinn.djinn_fns import tree_to_nn_weights, tf_dropout_regression, \
                get_hyperparams, tf_continue_training
 
 
